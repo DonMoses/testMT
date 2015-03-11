@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray">
+    <LinearLayout android:id="@+id/editTextLayoutLogIn"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:background="@android:color/white"
+                  android:layout_marginStart="15dp"
+                  android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"
+                  android:layout_marginEnd="15dp"
+                  android:layout_marginTop="15dp">
+        <EditText android:id="@+id/accountText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:singleLine="true"
+                  android:hint="@string/hintAccount"
+                  android:layout_marginTop="15dp"
+                  android:imeOptions="actionNext"
+                  android:padding="15dp"/>
+        <EditText android:id="@+id/passwordText"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textPassword"
+                  android:singleLine="true"
+                  android:hint="@string/hintPassword"
+                  android:layout_marginBottom="15dp"
+                  android:imeOptions="actionDone"
+                  android:padding="15dp"/>
+    </LinearLayout>
+    <Button android:id="@+id/logInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/longIn"
+            android:layout_below="@id/editTextLayoutLogIn"
+            android:textSize="20sp"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signInFree"
+            android:layout_below="@id/logInButton"
+            android:layout_alignLeft="@id/logInButton"
+            android:layout_alignStart="@id/logInButton"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"
+            android:textSize="16sp"/>
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logInWithoutAccount"
+            android:layout_below="@id/logInButton"
+            android:layout_alignRight="@id/logInButton"
+            android:layout_alignEnd="@id/logInButton"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"
+            android:textSize="16sp"/>
+
+</RelativeLayout>

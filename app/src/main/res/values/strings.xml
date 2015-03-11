@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tuan</string>
+    <string name="tuanUri">meituan.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintAccount">手机/邮箱/用户名</string>
+    <string name="hintPassword">密码</string>
+    <string name="longIn">登录</string>
+    <string name="signInFree">免费注册</string>
+    <string name="logInWithoutAccount">无账号快捷登陆</string>
+    <string name="wrongInfo">账号或密码错误</string>
+    <string name="infoOnPager1Title">尽享给力优惠</string>
+    <string name="infoOnPager1Info">团购、订座、优惠券、各种给力</string>
+    <string name="infoOnPager2Title">吃货的盛筵</string>
+    <string name="infoOnPager2Info">汤锅、砂锅、平底锅、各种锅锅</string>
+    <string name="infoOnPager3Title">钱包准备好了吗？</string>
+    <string name="infoOnPager3Info">肚皮和纸巾呢？</string>
+    <string name="textOnPager3Button">开始团</string>
+    <string name="tabTitle1">团购</string>
+    <string name="tabTitle2">商家</string>
+    <string name="tabTitle3">我的</string>
+    <string name="tabTitle4">更多</string>
+    <string name="foodCato">美食</string>
+    <string name="movieCato">电影</string>
+    <string name="hotelCato">酒店</string>
+    <string name="ktvCato">KTV</string>
+    <string name="voucherCato">代金券</string>
+    <string name="spotsTicketCato">景点门票</string>
+    <string name="dailyBillCato">今日新单</string>
+    <string name="moreCato">更多分类</string>
+
+
+    <string name="moreText">更多</string>
+    <string name="findApp">精品应用</string>
+    <string name="setting">设置</string>
+    <string name="otherAction">其他</string>
+    <string name="msgNotify">消息提醒</string>
+    <string name="noneImgMode">2G/3G下使用无图模式</string>
+    <string name="sharingSetting">分享设置</string>
+    <string name="invite">邀请好友使用美团</string>
+    <string name="fontSize">字号大小</string>
+    <string name="middleFontSize">中字号（默认）</string>
+    <string name="smallFontSize">小字号</string>
+    <string name="bigFontSize">大字号</string>
+    <string name="cleanCache">清空缓存</string>
+    <string name="scan">扫一扫</string>
+    <string name="feedback">意见反馈</string>
+    <string name="help">帮助？</string>
+
+    <string-array name="city">
+        <item>成都</item>
+        <item>重庆</item>
+        <item>北京</item>
+        <item>上海</item>
+        <item>杭州</item>
+        <item>香港</item>
+    </string-array>
+
+    <string name="searchHint">输入商家、分类或商圈</string>
+
+    <string-array name="catoGroup">
+        <item>美食</item>
+        <item>电影</item>
+        <item>电器</item>
+        <item>服饰</item>
+        <item>KTV</item>
+        <item>生活服务</item>
+    </string-array>
+
+    <string-array name="areaGroup">
+        <item>全城</item>
+        <item>离我最近</item>
+        <item>全市</item>
+        <item>全国</item>
+    </string-array>
+    
+    <string-array name="rankGroup">
+        <item>智能排序</item>
+        <item>根据类型</item>
+        <item>根据地区</item>
+        <item>根据热度</item>
+    </string-array>
+    
+    <string-array name="filterGroup">
+        <item>filter1</item>
+        <item>filter2</item>
+        <item>filter3</item>
+        <item>filter4</item>
+        <item>filter5</item>
+    </string-array>
+
+</resources>
